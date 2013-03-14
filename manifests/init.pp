@@ -1,4 +1,4 @@
-# Public: Install Alfred.app into /Applications.
+# Public: Install Alfred 2.app into /Applications.
 #
 # Examples
 #

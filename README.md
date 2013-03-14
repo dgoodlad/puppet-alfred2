@@ -1,11 +1,18 @@
-# Alfred Puppet Module for Boxen
+# Alfred 2 Puppet Module for Boxen
 
-Install [Alfred](http://www.alfredapp.com), a productivity app for Mac OS X.
+Install [Alfred 2](http://v2.alfredapp.com), a productivity app for Mac OS X.
 
 ## Usage
 
 ```puppet
-include alfred
+include alfred2
+```
+
+Optionally, specify a version if this module's [default](manifests/init.pp#L7) is
+out-of-date:
+
+```puppet
+class { 'alfred2': version => '2.0_165' }
 ```
 
 ## Required Puppet Modules
