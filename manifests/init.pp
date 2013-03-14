@@ -2,7 +2,9 @@
 #
 # Examples
 #
-#   include alfred
+#   include alfred2
+#
+#   class { 'alfred2': version => '2.0_42' }
 class alfred2 (
   $version = '2.0_165'
 ) {
