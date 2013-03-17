@@ -6,7 +6,7 @@
 #
 #   class { 'alfred2': version => '2.0_42' }
 class alfred2 (
-  $version = '2.0_165'
+  $version = '2.0.1_173'
 ) {
   package { 'Alfred 2':
     provider => 'compressed_app',
